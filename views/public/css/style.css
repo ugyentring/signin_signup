@@ -1,0 +1,136 @@
+body{
+    margin: 0px;
+    display: flex;
+    font-family: 'Inter', sans-serif;
+    opacity: 0;
+    transition: opacity 0.6s ease;
+}
+body.fade-in {
+    opacity: 1;
+}
+
+body.fade-out {
+    opacity: 0;
+}
+.left_img{
+    height: 100%;
+    width: 100%;
+}
+.forget{
+    color: #0E5CAA;
+    font-weight: bold;
+}
+.terms{
+    margin-top: 20px;
+}
+.container{
+    width: 100%;
+    display: flex;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+.left{
+    position: relative;
+    width: 30%;
+}
+.right{
+    width: 70%;
+}
+.content{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.topic{
+    margin-top: 80px;
+    font-size: 32px;
+    font-weight: bold;
+    color: #000000;
+}
+.check{
+    width: 20px;
+    height: 20px;
+}
+.input{
+    color: #4a4949;
+    border: 1px solid #4a4949;
+    border-radius: 9px;
+    width: 440px;
+    height: 45px;
+    padding-left: 30px;
+}
+.content1{
+    padding-left: 22.9%;
+}
+.agree{
+    color: #676767;
+}
+a{
+    text-decoration: none;
+    color: #0E5CAA;
+}
+.sign{
+    font-weight: bolder;
+    font-size: 36px;
+}
+.links{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.os_regi_link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container12{
+    display: flex;
+    width: 440px;
+}
+.sign_up{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+.sign_in{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+.sign_in_g{
+    width: 50%;
+    display: flex;
+    justify-content: left;
+}
+.sign_in_a{
+    width: 50%;
+    display: flex;
+    justify-content: left;
+}
+.login_google{
+    color: #2a2a2a;
+    font-size: 16px;
+    font-weight: bold;
+}
+.sup{
+    text-decoration: underline;
+}
+.sin{
+    color: #4F4D4D;
+}
+.images {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.wording{
+    width: 75%;
+    position: absolute;
+    top: 70%;
+    color: #FFFFFF;
+    left: 40%;
+    transform: translate(-50%, -50%);
+}

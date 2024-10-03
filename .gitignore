@@ -1,0 +1,55 @@
+# Node.js dependencies
+node_modules/
+
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# Environment variables
+.env
+
+# Build output
+dist/
+build/
+
+# Temporary files
+tmp/
+temp/
+
+# IDE files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Coverage reports
+coverage/
+
+# Test results
+*.lcov
+*.tsbuildinfo
+
+# Yarn
+.yarn-integrity
+.pnp.*
+.yarn/
+
+# Miscellaneous
+package-lock.json
+yarn.lock
+
+# NPM cache
+.npm/
+
+# PM2 logs
+pids/
+*.pid
+*.seed
+
+# TypeScript
+*.tsbuildinfo

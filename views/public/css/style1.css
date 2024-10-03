@@ -1,0 +1,18 @@
+.wording{
+    width: 75%;
+    position: absolute;
+    top: 75%;
+    color: #FFFFFF;
+    left: 60%;
+    transform: translate(-50%, -50%);
+}
+.wording1{
+    font-size: 32px;
+    font-weight: bold;
+    width: 75%;
+    position: absolute;
+    top: 20%;
+    color: #FFFFFF;
+    left: 70%;
+    transform: translate(-50%, -50%);
+}
